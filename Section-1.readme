@@ -1,0 +1,86 @@
+(Comprehend basic foundational knowledge of hardware, networking, programming and licensing.)
+
+              (-> Section :- 1 Understanding Hardware)
+
+a) What is Base?
+
+    -> Humans base mathematical equations on 10 numbers 0 to 9.
+    -> Computers work with base 2 0 and 1.
+    -> Computer has a bits and a bit can have two states either 1 or 0.
+    -> Computer is very complex magnet and a bit is actually a magnetic charge , 0 is a negative and 1 is positive
+
+b) Understanding bits and Bytes:
+
+    -> Take any decimal number with in the allowed range.(8,16,32,64)
+    -> Switch all bits off or on and you'll find the range for that bit system
+    -> You could represent Number by starting on the left hand side with the most significant bit and just keep going down and keep subtracting away until you get 0 .
+    -> This is called 8-bit unsigned system means only count positive  numbers.
+
+c) Signed magnitude , Signed or unsigned byte:
+
+    -> How do we create a negative number in binary?
+    -> An Unsigned bit system is where your bits or base two numbers can only produce positive number.
+    -> In Signed bit system , you can create a positive or a negative number.
+    -> The most significant number placement wil be either 0 (is false ? false = positive) or 1 (is false ? true = negative) which represents the sign of a number.
+    -> we have issued about -0 , beacuse when we turned off all the bits and signed to 1 , it give us -0 , which is not a correct number. so we introduced 2s compliments system.
+
+d) How Computers process binary data:
+
+    -> Computers process binary data in so called Processing Unites(PU).
+    -> There are 3 types of processings which process these units(1's and 0's):
+    a) GPU : Graphics Processing Unit : Units converts into Pixels.
+    b) SPU : Sound Processing Unit : Units Converts into sound waves.
+    c) CPU : Core Processing Unit : This is also called the brain beacuse it can process mathematical equtions and logics.
+    -> We work with the same unit or binary data , but it will behave as per thier region.
+
+e) Evolution of 8 16 32 and 64 bit Computing:
+
+    -> Just by adding more bits it gives us so much more power.
+    -> We could only had only 256 possible colors on 8 bit gpu, but in 16 bit , we have 65,535 posiible colors , likewise for spu and cpu.
+
+d) Sound and Recording:
+
+    -> we just learned about how the GPU , SPU and CPU process the binary data.
+    -> Now we can be more clear about how the sound is produced and stores in the memory.
+
+    a) How Sound is Produce?
+    -> The sound which transferd through the aux cable (Handsfree) is in the form of electrical charges.
+    -> There is a magnet behind a cone shped coil in the speaker area.
+    -> When the coil recieves that electrical charge , it repel with that magnet and produce a wave .
+    -> The longer the distance , the more clear sound will be , means the more the bits the more clear it will be.
+    -> Basically it vibrates that coil back and forth , so it produces the sound.
+
+    b) How Microphones works? (The reverse of producing sound)
+    -> When we produces a sound , that sound basically stores in the reverse way.
+    -> There are two thin metal plates and not sound cones , beacuse they have to be more sensitive.
+    -> The first plate will vibrate when the sound is produced and the behind one plate will be static
+    -> So when the sound produces , that first plate will start moving forward and backwards.
+    -> Depending on how close the first plate is to the second plate ,It will produce loud sound when close and vice versa.
+    -> So , that movements produces electrial charges , and that charges transfers through cables to the device and it converts it to the binary data and stores it in memory  so we can use it later.
+
+e) Firmware and BIOS:
+
+    -> BIOS is an acronym for Basic Input and Output System.
+    -> Firmware is physical programs that exist as positive and negative charges.
+    -> You have more than one BIOS's all over your computer.
+    -> Your BIOS's are basic input and output systems, They recieves input and provides outpu,
+    -> That's all you need to have a firmware that is classed as a BIOS.
+    -> You have main BIOS is the bit that actually allows computer to boot up.
+    -> It gives it the initial information it needs and it can't get that from a programming language.
+    -> Somebody has to physically program that in 1's and 0's.beacuse that's all our coputer understands(Positive and negative charges)
+
+f) Temporary and Persistent Memory:
+
+    ->There are two types of data.
+
+    a)Temporary(Volatile Data)
+    -> It is the RAM .
+    -> It stores data for the short period of time.
+    -> Whe I need to change the font of a text , that's where that data stores in RAM and after process it spits up.
+
+    b) Persistant Memory:
+    -> It is the long period of time memory.
+    -> If we wanna save a file and want to check it after long time , It should saved in the Hard dists or SSD etc.
+
+
+    <!-- That's all about How Hardware Works, Let's starts with the basics of Networking -->
