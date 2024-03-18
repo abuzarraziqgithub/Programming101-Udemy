@@ -1,0 +1,177 @@
+               (-> Section :- 2 Basics of Networking)
+
+a) Basic Network Structure:
+
+         -> There is no application that doesn't need to communicate with an external.
+         -> The most basic type of network is a Local Network.
+         -> This local network is also called an Intranet (forget about internet).
+         -> One of the basic way to make a connection is to use an Ethernet LAN or CAT5 Cable.
+         -> It allows us to send and to recieve bits between two computers.
+         -> When you connect two computers in this way , you have made a local network.
+         -> A router is a computer , it has a chipboard , it has silicon RAM, firmware,it has even memory.
+         -> There are two types of connectivity, Wired and Wireless.
+         -> Wireless needs arial technology.
+         -> Arial can transmitt(send) bits(magnetic charges through the air) and also recieve bits.
+         -> Routers are a type of computer to route data.
+         -> We have 2 types of Networks: Local Network (Intranet) and a Global Network(Internet)
+
+b) IPV4 , IPV6 and Packets:
+
+      Real world Concept:
+                         -> When I write a letter an I take that letter in an envelope and then write an address on it.
+                         -> That address means that I'm addressing a certain location.
+                         -> When we talk to somebody , we actually addressing that person.
+                         -> Addressing means targeting or targetting system.
+                         -> Likewise I can recieve that certain envelope with my address as well.
+                         -> So that means that I not can only send data to a certain address but also can recieve it  and it is vital for networking.
+
+      Computer concept:
+                       -> In order to send and recieve data to certain address In computer , we need IP addresses.
+                       -> IPA stands for Internet Protocol Address.
+                       -> It is the targeting service for our computer to communicate over the global network.
+                       -> We have internet in which all of these computers connected together and Internet need a protocol or a sysytem in which we can terget each computer.
+
+
+
+      IPV4 and IPV6:
+                      -> It stands for Internet Protocol version 4 and 6.
+                      -> IPV4 is the  first major revision.
+                      -> IPV6 was created later on , because of the amount of devices we have connecting to the global internet.
+
+
+
+      IPV4:
+                      -> It consist of 4 bytes or a group of 8 bits (32 bit)
+                      -> we are working with an unsigned bit system.
+                      -> We have 4 bytes and each byte can go from 0 to 255.
+                      -> The IP addresse is separated by dots.
+                      -> Our IP addresses are in fact a 32 bit binary number.
+                      -> Those 32 bits make a number which is your address.
+                      -> This IP address comes from the Internet service provider ISP.
+                      -> This ISP give us an Infrastructure to send our bits and bytes over the network and also gives us the IP address allow us to be addresses on the global internt.
+
+
+                      -> This create a big problem , because we are working with 32 bits , that's IPV4.
+                      -> 32 bits has approx 4 billion addresses.(Possible 1's and 0's combinations)
+                      -> The population is double than that and every individual owns a smart phone , laptop computer etc , and each of those has to be identified with thier IP address.
+                      -> So that 4 billion cap isn't enough.
+
+                      -> We actually solved with routers.
+                      -> There is NAT capital letters on our router box .
+                      -> That NAT is actually Network Address Translation.
+                      -> The work of NAT is to limit the amount of IP Addresses that the ISP has to give out.
+                      -> Our Router connects to the ISP.
+                      -> The ISP gives out one address.
+                      -> They don't want to give out four addresses for four devices because If that condition comes , then there will be no more adresses left.
+                      -> The ISP give an address to the router, and that address is allocated , it's given to a device.
+                      -> The ISP can't use that address until the router disconnects.
+                      -> So Router connects to ISP and that router is a computer , so it needs an IP address.
+                      -> The IP adress that is recieved from ISP to the router  is Public IP Address.
+                      -> Anoboby from the public can actually access that IP address.
+                      -> Now when the computer or other device connects to router , The router give each of them IP addresses and that IP address are private.
+
+
+
+                      -> When you open web browser in a device .
+                      -> we type in an address , such as google.com
+                      -> It actually requesting data from a server , and that server has an IP adress.
+                      -> When you request a website , a package is made.
+                      -> when you send binary data it sents in packets over the network.
+                      -> Just like we give an example of letter.
+                      -> You put something in that package and you wanted it to go .
+                      -> So we are requesting some information back.
+
+                      -> we are gonna write the address to google on the package.
+                      -> That package will go to the router.
+                      -> Now the router knows that private address of the device , That private IP address goes no further.
+                      -> The router stores the IP address not the ISP.
+                      -> The router send that data package to the ISP and then the ISP will send it to the address of that server and it will send the data back to that device address.
+                      -> The the google server knows where to send the data, beacuse router has a Public IP address
+                      -> The router will routes the data to that device , which requested for.
+
+                      -> By having private IP addresses , it prevents the ISP from releasing all of these different IP addresses that will stop people from connecting
+                      -> That is why we have routers and they have NAT on the box (Network Access translation)
+
+                      -> Allowing it to route the packets , the data back to the specific device.
+
+
+
+
+                      -> What happens when we disconnect our router?
+                      -> When we disconnect it , and after reconect , the IP address will change.
+                      -> Why is that , You should have the idea.
+
+
+
+
+      IPV6:
+                     -> Why was IPV6 created?
+                     -> It allows us for more public addresses.
+                     -> It was created because of the increase in the population of the internet connectivity.
+                     -> It works with 128bits.
+                     -> It has 340 trillion trillion trillions of combinations.
+                     -> We would never out of public addresses and wouldn't need NAT.
+
+c) MAC Addresses:
+
+                   -> We have another type of address that comes with networking and that's called a MAC address.
+                   -> MAC stands for Media Access control Address
+
+                   -> What is this address and why is that so important?
+                   -> This address is important for local networks and not for internet connectivity.
+                   -> With internet connectivity , you are using IP addresses to target a computer or target a server.
+                   -> However IP addresses can change.
+                   -> If a computer (Router) disconnects , It can be given another identity or IP.
+                   -> Imagine you have a lots of friends and all of a sudden they start changing their identity every two seconds , It's gonna be very hard to keep your address book up to date.
+
+                   -> With local networks for security reasons we have MAC addresses.
+                   -> MAC addresses are physically hard coded in the silicon , meaning they are literally positive and negative charges and they are provided by the manufacturer.
+                   -> Its also very unique because it's hard coded in the form of 1's and 0's.
+                   -> This uniquness allows for network administration and to identify the media access control devices
+                   -> IP address are great for identification whilst there is connectivity , but they are not wholy unique for a specific computer.
+
+
+                   -> We have MAC addresses for security reasons as  well, as network administrator , you can monitor what silicon is connected to your network and you can monitor that by its MAC address.
+                   -> You can see an unfimiliar MAC address and can block it from your network.
+
+                   -> It is 48 bits in length
+
+d) Servers and HTTP:
+
+                  -> Servers are simply computers that are connected to the internet and they serve files.
+                  -> They can also recieve data as well.
+                  -> When you request for a website , html css file , you type it in google.com , this request will have a an IP address on it , it will go to router , than the router will send it ISP and then ISP will sent it to the given server address in which the user request for.
+                  -> That server will check for that specific request and will send it  back to the given address in which the request comes from.
+
+
+                  -> But how come you type in google.com:
+
+                  -> You can type the IP address directly in your web browser and will bring up google.com because google has an ip address.
+                  -> But we can't remember the IP addresses.
+                  -> So we created domain names.
+                  -> Domain name are not the server itself.
+                  -> Domain names are for that we can connect to the server in human readable formt.
+
+
+                  -> When we type google.com , we create a request to fetch google.com and goes off to the router again and then ISP. But the ISP does not have the ability to find a server called google.com.
+                  -> Actually google.com is for us and not for the ISP
+                  -> In order to understand the domain name , The ISP
+                  has a Domain Register where every domain name has thier own IP address so that the ISP can look for that IP address.
+
+                  -> when You purchase a server space you will also need to purchase the domain name as well and that  server IP address and domain name is locked up for that specific server and wont for the other server or computer until the contracts is up.
+                  -> That IP ad and domain name is register in the Domain register.
+                  -> It takes 24 to 48 hours for the ISP's to update thier registers
+
+HTTP:
+-> The mailing system is structured.
+-> If I send something through my mailing system, I have to make sure I have followed thier protocol or thier system
+
+-> Put the address in the right format , make sure the font is readable etc.
+
+-> Likewise every computer needs the same protocol.
+-> Your Packets are written in HTTP or Hypertext Transfer protocol.
+-> HTTP is a system or protocol and your packets are made up of very basic text strings that say I would like to fetch data or I would like to get data and your packet can contain binary data as well such as HTML CSS files and so on.
+-> All of your packets are structures in HTTP.
+-> This is the system where all the servers communicate in the same way ensuring that your packets are sent and recieved by the same mailing system that's standardized.
+
+-> It is the very simple way of sending and recieving packets
